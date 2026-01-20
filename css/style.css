@@ -353,7 +353,7 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 40px;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -2358,4 +2358,17 @@ blockquote {
 #services .col-2:first-child {
     display: flex;
     align-items: center;
+}
+
+.pricing-block-content img.product-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .pricing-block-content img.product-image {
+        aspect-ratio: 1 / 1;
+        /* squarer images on mobile */
+    }
 }
