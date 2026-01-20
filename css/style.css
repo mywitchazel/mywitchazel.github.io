@@ -778,17 +778,7 @@ h6 {
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
 
-#banner {
-    background-size: 50% auto;
-}
 
-@media (max-width: 768px) {
-    #banner {
-        background-size: cover;
-        background-color: rgba(255, 255, 255, 0.6);
-        background-blend-mode: lighten;
-    }
-}
 
 #banner-content.row {
     padding-top: 170px;
